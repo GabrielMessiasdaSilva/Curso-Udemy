@@ -1,0 +1,250 @@
+
+
+
+2. Faça um script que pede duas notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte resultado:
+
+    A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+    A mensagem "Reprovado", se a média for menor do que sete;
+    A mensagem "Aprovado com Distinção", se a média for igual a dez.
+Calcular média de dois números
+
+3. Faça um script que leia três números inteiros e mostre o maior deles.
+Recebe três números e mostra o maior
+
+4. Faça um script que pede dois inteiros e armazene eles em duas variáveis. Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
+Fazer duas variáveis trocarem de valores entre si - Variável Auxiliar
+
+5. Faça um script que leia três números inteiros, em seguida mostre o maior e o menor deles.
+Maior ou menor número
+
+6. Faça um script que leia três números e mostre-os em ordem decrescente.
+Exibe números em ordem decrescente
+
+7. Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+
+8. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver um script que calculará os reajustes.
+Faça um script que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+
+    salários até R$ 280,00 (incluindo) : aumento de 20%
+    salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+    salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+    salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+    o salário antes do reajuste;
+    o percentual de aumento aplicado;
+    o valor do aumento;
+    o novo salário, após o aumento.
+
+9. Faça um script para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O script deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
+
+    Desconto do IR:
+    Salário Bruto até 900 (inclusive) - isento
+    Salário Bruto até 1500 (inclusive) - desconto de 5%
+    Salário Bruto até 2500 (inclusive) - desconto de 10%
+
+    Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações, dispostas conforme o exemplo abaixo. No exemplo o valor da hora é 5 e a quantidade de hora é 220.
+
+    Salário Bruto: (5 * 220)        : R$ 1100,00
+    (-) IR (5%)                                : R$   55,00
+    (-) INSS ( 10%)                       : R$  110,00
+    FGTS (11%)                            : R$  121,00
+    Total de descontos                : R$  165,00
+    Salário Liquido                       : R$  935,00
+
+
+10. Faça um script que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
+
+11. Faça um script que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+
+      Média de Aproveitamento  Conceito
+      Entre 9.0 e 10.0                      A
+      Entre 7.5 e 9.0                        B
+      Entre 6.0 e 7.5                        C
+      Entre 4.0 e 6.0                        D
+      Entre 4.0 e zero                      E
+    O algoritmo deve mostrar numa janela de alert as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+
+
+12. Faça um script que peça os 3 lados de um triângulo. O script deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+
+    Dicas:
+    Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
+    Triângulo Equilátero: três lados iguais;
+    Triângulo Isósceles: quaisquer dois lados iguais;
+    Triângulo Escaleno: três lados diferentes;
+
+
+13. Faça um script que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c. O script deverá pedir os valores de a, b e c e fazer os testes necessários.
+Encontrar raízes de uma equação do segundo grau
+
+
+14. Faça um script que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+Ano bissexto em JavaScript
+
+
+15. Faça um script que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+Validar data em JavaScript
+
+16. Faça um script que peça um número inteiro e determine se ele é par ou ímpar.
+Dica: utilize o operador módulo (resto da divisão): %
+Par ou Ímpar em JS
+
+
+17. Faça um script que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
+Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
+
+326 = 3 centenas, 2 dezenas e 6 unidades
+12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
+
+
+18. Faça um script para um caixa eletrônico. O script deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O script não deve se preocupar com a quantidade de notas existentes na máquina.
+
+ Exemplo: Para sacar a quantia de 256 reais, o script fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;
+ Exemplo: Para sacar a quantia de 399 reais, o script fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
+
+
+
+19.Faça um script que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
+
+
+20. Faça um script que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+
+    par ou ímpar;
+    positivo ou negativo;
+    inteiro ou decimal.
+
+
+21. Faça um script que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+    "Telefonou para a vítima?"
+    "Esteve no local do crime?"
+    "Mora perto da vítima?"
+    "Devia para a vítima?"
+    "Já trabalhou com a vítima?" O script deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
+
+
+22. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+    Álcool: até 20 litros, desconto de 3% por litro
+    acima de 20 litros, desconto de 5% por litro
+
+    Gasolina:
+    até 20 litros, desconto de 4% por litro
+    acima de 20 litros, desconto de 6% por litro Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
+
+
+23. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+                          Até 5 Kg                 Acima de 5 Kg
+    Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
+    Maçã              R$ 1,80 por Kg          R$ 1,50 por Kg
+    Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
+
+
+24. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+                          Até 5 Kg               Acima de 5 Kg
+    File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
+    Alcatra           R$ 5,90 por Kg          R$ 6,80 por Kg
+    Picanha          R$ 6,90 por Kg          R$ 7,80 por Kg
+    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total a compra. Escreva um script que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
+
+
+
+
+
+
+
+Estruturas de controle:
+
+11. Crie uma estrutura de controle que verifica se um número é maior que 10 e exiba uma mensagem caso seja verdadeiro.
+12. Crie uma estrutura de controle que verifica se um número é positivo, negativo ou zero e exiba uma mensagem de acordo com o resultado.
+13. Crie uma estrutura de controle que verifica se um número é par ou ímpar e exiba uma mensagem de acordo com o resultado.
+14. Crie uma estrutura de controle que verifica se um ano é bissexto e exiba uma mensagem de acordo com o resultado.
+15. Crie uma estrutura de controle que verifica se um número é primo e exiba uma mensagem de acordo com o resultado.
+16. Crie uma estrutura de controle que verifica se uma letra é uma vogal ou uma consoante e exiba uma mensagem de acordo com o resultado.
+17. Crie uma estrutura de controle que verifica se um número é divisível por 3 e por 5 e exiba uma mensagem de acordo com o resultado.
+18. Crie uma estrutura de controle que verifica se uma palavra é um palíndromo (ou seja, se pode ser lida da mesma forma da esquerda para a direita e vice-versa) e exiba uma mensagem de acordo com o resultado.
+19. Crie uma estrutura de controle que verifica se um número está no intervalo de 10 a 20 e exiba uma mensagem de acordo com o resultado.
+20. Crie uma estrutura de controle que verifica se um número é múltiplo de 3 ou de 5 e exiba uma mensagem de acordo com o resultado.
+
+Laços de repetição:
+
+21. Crie um loop que exiba os números de 1 a 10 na tela.
+22. Crie um loop que exiba os números pares de 1 a 10 na tela.
+23. Crie um loop que exiba a tabuada do 5 (de 1 a 10) na tela.
+24. Crie um loop que exiba a sequência de Fibonacci até o décimo termo.
+25. Crie um loop que exiba os números ímpares de 10 a 1 na tela.
+26. Crie um loop que exiba os números primos de 1 a 100 na tela.
+27. Crie um loop que exiba os números divisíveis por 3 de 1 a 100 na tela.
+28. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz" e os múltiplos de 5 pela palavra "Buzz".
+29. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz", os múltiplos de 5 pela palavra "Buzz" e os múltiplos de ambos por "FizzBuzz".
+30. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz", os múltiplos de 5 pela palavra "Buzz", os múltiplos de 7 pela palavra "Woof" e os múltiplos de 3, 5 e 7 por "FizzBuzzWoof".
+
+Arrays:
+
+31. Crie um array com os números de 1 a 10 e exiba-o na tela.
+32. Crie um array com as letras do alfabeto e exiba-o na tela.
+33. Crie um array com os nomes de 5 pessoas e exiba-o na tela.
+34. Crie um array com os números pares de 1 a 10 e exiba-o na tela.
+35. Crie um array com os números ímpares de 1 a 10 e exiba-o na tela.
+36. Crie um array com os números primos de 1 a 100 e exiba-o na tela.
+37. Crie um array com os números de 1 a 100 e exiba a soma de todos os elementos na tela.
+38. Crie um array com os números de 1 a 100 e exiba o maior valor presente no array.
+39. Crie um array com os números de 1 a 100 e exiba o menor valor presente no array.
+40. Crie um array com os números de 1 a 100 e exiba a média dos valores presentes no array.
+
+Funções:
+
+41. Crie uma função que recebe um número como parâmetro e retorna o seu dobro.
+42. Crie uma função que recebe dois números como parâmetros e retorna a soma deles.
+43. Crie uma função que recebe um número como parâmetro e retorna `true` se ele for par ou `false` caso contrário.
+44. Crie uma função que recebe uma palavra como parâmetro e retorna `true` se ela for um palíndromo ou `false` caso contrário.
+45. Crie uma função que recebe um número como parâmetro e retorna `true` se ele for primo ou `false` caso contrário.
+46. Crie uma
+
+ função que recebe uma palavra como parâmetro e retorna o seu comprimento.
+47. Crie uma função que recebe um array de números como parâmetro e retorna a soma de todos os elementos.
+48. Crie uma função que recebe um array de números como parâmetro e retorna o maior valor presente no array.
+49. Crie uma função que recebe um array de números como parâmetro e retorna o menor valor presente no array.
+50. Crie uma função que recebe um array de números como parâmetro e retorna a média dos valores presentes no array.
+
+
+
+    Mais Exercicios
+
+    Aqui estão mais de 100 exercícios de lógica em JavaScript, que abrangem desde conceitos básicos até o ECMAScript, juntamente com alguns programas simples de manipulação de HTML:
+
+Lógica de JavaScript:
+
+1. Escreva um programa para imprimir "Olá, mundo!" no console.
+2. Crie uma função para verificar se um número é par ou ímpar.
+3. Escreva um programa para verificar se um número é positivo, negativo ou zero.
+4. Crie uma função para calcular a soma dos elementos de um array.
+5. Escreva um programa para encontrar o maior elemento em um array.
+6. Crie uma função para inverter uma string.
+7. Escreva um programa para verificar se uma palavra é um palíndromo.
+8. Crie uma função para calcular o fatorial de um número.
+9. Escreva um programa para imprimir os números de 1 a 100. Para múltiplos de 3, imprima "Fizz" em vez do número, e para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de 3 e 5, imprima "FizzBuzz".
+10. Crie uma função para verificar se um número é primo.
+11. Escreva um programa para encontrar a soma de todos os números primos menores ou iguais a 100.
+12. Crie uma função para calcular a média de um array de números.
+13. Escreva um programa para encontrar o segundo maior número em um array.
+14. Crie uma função para verificar se um ano é bissexto.
+15. Escreva um programa para imprimir a tabela de multiplicação de 1 a 10.
+16. Crie uma função para calcular a raiz quadrada de um número.
+17. Escreva um programa para encontrar o número mais frequente em um array.
+18. Crie uma função para verificar se uma string contém apenas dígitos.
+19. Escreva um programa para verificar se uma frase é um pangrama (contém todas as letras do alfabeto).
+20. Crie uma função para ordenar um array em ordem crescente.
+
+Manipulação de HTML em JavaScript:
+
+21. Crie um programa que altere a cor de fundo de uma página HTML quando um botão é clicado.
+22. Escreva um programa para adicionar um novo elemento à lista de um HTML.
+23. Crie uma função para ocultar um elemento HTML quando um botão é clicado.
+24. Escreva um programa para alternar a visibilidade de um elemento HTML quando um botão é clicado.
+25. Crie um programa que exiba uma mensagem de saudação personalizada com base no nome inserido em um campo de entrada HTML.
+26. Escreva um programa para criar uma calculadora simples em HTML e JavaScript.
+27. Crie um programa que valide um formulário HTML antes de enviá-lo.
+28. Escreva um programa para exibir a hora atual em um elemento HTML atualizado automaticamente.
+29. Crie um programa que adicione um novo parágrafo ao HTML sempre que uma tecla for pressionada em um campo de entrada.
+30. Escreva um programa para criar um slideshow de imagens em HTML e JavaScript.
+
+Esses são apenas alguns exemplos de exercícios de lógica em JavaScript e programas de manipulação de HTML. Você pode expandir essa lista e criar mais desafios à medida que avança em seu aprendizado. Lembre-se de experimentar e praticar para aprimorar
