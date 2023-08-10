@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfólio Responsivo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <style>
+        /* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos do herói */
+.hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Estilos do conteúdo */
+.content {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at ligula eget ligula aliquam lacinia. Nullam elementum scelerisque enim ut volutpat.</p>
+            <p>Nulla facilisi. In hac habitasse platea dictumst. Suspendisse potenti. Sed nec feugiat lorem. Nunc euismod fermentum commodo. Integer sollicitudin tincidunt felis, vitae rutrum sem bibendum a.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="content">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <!-- Aqui você pode adicionar os projetos do seu portfólio -->
+            <div class="project">
+                <h3>Projeto 1</h3>
+                <img src="projeto1.jpg" alt="Projeto 1">
+                <p>Descrição do projeto 1.</p>
+            </div>
+
+            <div class="project">
+                <h3>Projeto 2</h3>
+                <img src="projeto2.jpg" alt="Projeto 2">
+                <p>Descrição do projeto 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo pelo telefone ou e-mail:</p>
+            <p>Telefone: 123456789</p>
+            <p>Email: contato@meuportfolio.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
