@@ -117,3 +117,15 @@ h3{
     
 
 }
+@media screen and (max-width:768px){
+    #area-cabecalho{
+        width: 100%;
+    }
+    #area-menu{
+        display: block;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+    }
+}
